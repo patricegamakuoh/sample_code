@@ -1,5 +1,5 @@
 /*Name: Patrice Gama
-  Date: 2019*/
+  */
 
 #include "Globals.h"
 
