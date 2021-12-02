@@ -52,11 +52,11 @@ void ADRC_Init(Fhan_Data *fhan_in1,Fhan_Data *fhan_in2)
   fhan_in1->beta_2=ADRC_Unit[0][9];
   fhan_in1->N1=(uint16)(ADRC_Unit[0][10]);
   fhan_in1->c=ADRC_Unit[0][11];
-
   fhan_in1->alpha1=ADRC_Unit[0][12];
   fhan_in1->alpha2=ADRC_Unit[0][13];
   fhan_in1->zeta=ADRC_Unit[0][14];
   fhan_in1->b=ADRC_Unit[0][15];
+  
   fhan_in2->r=ADRC_Unit[1][0];
   fhan_in2->h=ADRC_Unit[1][1];
   fhan_in2->N0=(uint16)(ADRC_Unit[1][2]);
