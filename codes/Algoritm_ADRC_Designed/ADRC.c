@@ -1,8 +1,13 @@
-/*Developed by: Patrice Gama
-  Date: 2020*/
+/*
+  Developed by: Patrice Gama
+  Date: 2020
+  
+  Active disturbance rejection control(ADRC) is a control algorithm which takes the characteristics of PID control with its improvement over PID comprising of three parts: 
+Tracking differentiator (TD), extended state observer (ESO), and state error feedback
+
+*/
 
 #include "ADRC.h"
-
 
 // Add in ADRC gains!
 const float ADRC_Unit[3][16]=
