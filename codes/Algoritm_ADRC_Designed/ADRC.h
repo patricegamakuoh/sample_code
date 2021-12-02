@@ -36,9 +36,9 @@
 
 // }Fhan_Data;
 
-void ADRC_Init(Fhan_Data *fhan_Input1,Fhan_Data *fhan_Input2);
-void Fhan_ADRC(Fhan_Data *fhan_Input,float expect_ADRC);
-void ADRC_Control(Fhan_Data *fhan_Input,float expect_ADRC,float feedback);
+void ADRC_Init(Fhan_Data *fhan_In1,Fhan_Data *fhan_In2);
+void Fhan_ADRC(Fhan_Data *fhan_In,float expect_ADRC);
+void ADRC_Control(Fhan_Data *fhan_In,float expect_ADRC,float feedback);
 
 extern Fhan_Data ADRC_Pitch_Controller,ADRC_Roll_Controller;
 #endif
